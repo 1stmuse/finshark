@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/o.akinnagbe/Desktop/c#-projects/finshark/api/api.csproj": {}
+    "/Users/muse/Desktop/c#-projects/finshark/api/api.csproj": {}
   },
   "projects": {
-    "/Users/o.akinnagbe/Desktop/c#-projects/finshark/api/api.csproj": {
+    "/Users/muse/Desktop/c#-projects/finshark/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/o.akinnagbe/Desktop/c#-projects/finshark/api/api.csproj",
+        "projectUniqueName": "/Users/muse/Desktop/c#-projects/finshark/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/o.akinnagbe/Desktop/c#-projects/finshark/api/api.csproj",
-        "packagesPath": "/Users/o.akinnagbe/.nuget/packages/",
-        "outputPath": "/Users/o.akinnagbe/Desktop/c#-projects/finshark/api/obj/",
+        "projectPath": "/Users/muse/Desktop/c#-projects/finshark/api/api.csproj",
+        "packagesPath": "/Users/muse/.nuget/packages/",
+        "outputPath": "/Users/muse/Desktop/c#-projects/finshark/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/o.akinnagbe/.nuget/NuGet/NuGet.Config"
+          "/Users/muse/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.13, )"
@@ -62,6 +66,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
